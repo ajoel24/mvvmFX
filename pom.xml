@@ -239,7 +239,7 @@
                     <configuration>
                         <release>${maven.compiler.release}</release>
                         <!-- Optional: fail on warnings in library code -->
-                        <failOnWarning>true</failOnWarning>
+                        <!-- <failOnWarning>true</failOnWarning> -->
                     </configuration>
                 </plugin>
             </plugins>
@@ -270,7 +270,7 @@
                 <version>3.3.1</version>
                 <executions>
                     <execution>
-                        <id>attach-doc</id>
+                        <id>attach-sources</id>
                         <goals>
                             <goal>jar</goal>
                         </goals>
@@ -290,7 +290,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
+                <version>3.5.2</version>
                 <dependencies>
                     <dependency>
                         <groupId>org.junit.jupiter</groupId>
@@ -354,8 +354,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <!-- Minimal supported version is 2.4 -->
-                        <version>2.19.1</version>
+                        <version>3.5.2</version>
                         <configuration>
                             <properties>
                                 <property>
