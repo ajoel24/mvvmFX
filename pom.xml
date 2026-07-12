@@ -1,12 +1,13 @@
 <!--
-  Copyright 2013 Alexander Casall, Manuel Mauky
-  
+  Copyright 2013-2026 Alexander Casall, Manuel Mauky
+  Copyright 2026 Andrew Joel
+
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-  
+
     http://www.apache.org/licenses/LICENSE-2.0
-  
+
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,6 +16,7 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -23,13 +25,13 @@
 		<version>7</version>
 	</parent>
 
-	<groupId>de.saxsys</groupId>
+	<groupId>io.github.ajoel24</groupId>
 	<artifactId>mvvmfx-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.9.0-SNAPSHOT</version>
+	<version>2.0.0-SNAPSHOT</version>
 	<name>mvvmFX parent</name>
-	<description>Application Framework for MVVM with JavaFX.</description>
-	<url>http://www.saxsys.de</url>
+	<description>Application Framework for MVVM with JavaFX (ajoel24 fork).</description>
+	<url>https://github.com/ajoel24/mvvmFX</url>
 	<developers>
 		<developer>
 			<email>alexander.casall@saxsys.de</email>
@@ -42,11 +44,17 @@
 			<name>Manuel Mauky</name>
 			<url>http://www.lestard.eu</url>
 		</developer>
+		<developer>
+			<email>code@andrew-joel.com</email>
+			<name>Andrew Joel</name>
+			<id>ajoel24</id>
+			<url>https://github.com/ajoel24</url>
+		</developer>
 	</developers>
 
 	<organization>
-		<name>Saxonia Systems AG</name>
-		<url>www.saxsys.de</url>
+		<name>ajoel24</name>
+		<url>https://github.com/ajoel24</url>
 	</organization>
 
 	<licenses>
@@ -57,15 +65,14 @@
 		</license>
 	</licenses>
 	<issueManagement>
-		<url>https://github.com/sialcasa/mvvmFX/issues</url>
+		<url>https://github.com/ajoel24/mvvmFX/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 
-
 	<scm>
-		<url>https://github.com/sialcasa/mvvmFX</url>
-		<connection>scm:git:git://github.com/sialcasa/mvvmFX.git</connection>
-		<developerConnection>scm:git:git@github.com:sialcasa/mvvmFX.git</developerConnection>
+		<url>https://github.com/ajoel24/mvvmFX</url>
+		<connection>scm:git:git://github.com/ajoel24/mvvmFX.git</connection>
+		<developerConnection>scm:git:git@github.com:ajoel24/mvvmFX.git</developerConnection>
 	</scm>
 
 	<properties>
