@@ -1,0 +1,17 @@
+mvvmFX
+Copyright 2013-2026 Alexander Casall, Manuel Mauky
+Copyright 2026 ajoel24
+
+This product is a fork of mvvmFX, originally developed by Alexander Casall
+and Manuel Mauky at Saxonia Systems AG.
+
+This product includes software developed at:
+- Saxonia Systems AG (https://www.saxsys.de)
+- ajoel24 (https://github.com/ajoel24)
+
+The original project is available at:
+  https://github.com/sialcasa/mvvmFX
+
+This product includes third-party components:
+- ISO 3166 country data files in examples/contacts-example/src/main/resources/countries/
+  (see individual files for copyright and license notices)
